@@ -1,4 +1,4 @@
-# 💕 Sonali, Will You Be My Girlfriend?
+# 💕 Sonali, Will You Be My Companion?
 
 A romantic, developer-themed website to ask that special question, built with feelings, code, and hope.
 
