@@ -4,7 +4,7 @@ A romantic, developer-themed website to ask that special question, built with fe
 
 ## 🎯 Overview
 
-This is a special website designed to ask Sonali to be my girlfriend. It combines the beauty of romance with the charm of code, creating an unforgettable experience that speaks to her heart and her craft as a software developer.
+This is a special website designed to ask Sonali to be my companion. It combines the beauty of romance with the charm of code, creating an unforgettable experience that speaks to her heart and her craft as a software developer.
 
 ## ✨ Features
 
