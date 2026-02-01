@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonali, will you be my girlfriend? 💕</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Urbanist:wght@400;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Professional Navigation -->
+    <nav class="nav-bar">
+        <div class="nav-brand">
+            <span class="brand-icon">💕</span>
+            <span class="brand-text">for Sonali</span>
+        </div>
+        <div class="nav-progress">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+        <div class="nav-section-indicator" id="sectionIndicator">1 / 5</div>
+    </nav>
+
+    <!-- Background elements -->
+    <div class="particles" id="particles"></div>
+    <div class="bg-animation">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+    
+    <!--Scroll indicator -->
+    <div class="scroll-indicator" id="scrollIndicator">
+        <div class="scroll-text">Scroll to explore</div>
+        <div class="scroll-arrow">↓</div>
+    </div>
+    
+    <!-- Music toggle -->
+    <button class="music-toggle" id="musicToggle" aria-label="Toggle music">
+        <span class="music-icon">🎵</span>
+    </button>
+
+    <!-- Section 1: Terminal -->
+    <section class="section terminal-section active" id="section1" data-section="1">
+        <div class="section-number">01</div>
+        <div class="terminal">
+            <div class="terminal-header">
+                <div class="terminal-buttons">
+                    <span class="btn-close"></span>
+                    <span class="btn-minimize"></span>
+                    <span class="btn-maximize"></span>
+                </div>
+                <div class="terminal-title">
+                    <span class="terminal-icon">⚡</span>
+                    ~/feelings-compiler
+                </div>
+                <div class="terminal-actions">
+                    <span class="terminal-status">●</span>
+                    <span class="terminal-time" id="currentTime"></span>
+                </div>
+            </div>
+            <div class="terminal-body">
+                <div class="terminal-line">
+                    <span class="prompt">abhishek@heart <span class="path">~/project</span> $</span>
+                    <span class="command typed-text" id="terminalCommand"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <div class="terminal-output" id="terminalOutput"></div>
+                <div class="continue-hint" id="continueHint">
+                    <p>Press <kbd>↓</kbd> or <kbd>Space</kbd> to continue</p>
+                </div>
+            </div>
+        </div>
+        <div class="tech-badge">
+            <span class="badge-icon">🚀</span>
+            <span class="badge-text">Built with cutting-edge web technology</span>
+        </div>
+    </section>
+
+    <!-- Section 2: Code Story -->
+    <section class="section code-section" id="section2" data-section="2">
+        <div class="section-number">02</div>
+        <div class="container">
+            <div class="section-header">
+                <h1 class="section-title">Our Story</h1>
+                <p class="section-subtitle">Written in the language of love</p>
+            </div>
+            <div class="code-editor">
+                <div class="code-header">
+                    <div class="code-tabs">
+                        <div class="tab active">
+                            <span class="tab-icon">📄</span>
+                            <span class="tab-name">OurLoveStory.js</span>
+                            <span class="tab-close">×</span>
+                        </div>
+                        <div class="tab inactive-tab">
+                            <span class="tab-icon">📝</span>
+                            <span class="tab-name">README.md</span>
+                        </div>
+                    </div>
+                    <div class="code-tools">
+                        <span class="code-lang">JavaScript</span>
+                        <span class="code-lines">38 lines</span>
+                    </div>
+                </div>
+                <div class="code-body">
+                    <div class="line-numbers" id="lineNumbers"></div>
+                    <pre class="code-content"><code><span class="comment">// The beginning of something beautiful</span>
+<span class="keyword">class</span> <span class="class-name">Relationship</span> {
+    <span class="keyword">constructor</span>(person1, person2) {
+        <span class="keyword">this</span>.developer1 = person1;
+        <span class="keyword">this</span>.developer2 = person2;
+        <span class="keyword">this</span>.feelings = <span class="number">0</span>;
+        <span class="keyword">this</span>.memories = [];
+        <span class="keyword">this</span>.chemistry = <span class="string">"undeniable"</span>;
+    }
+
+    <span class="function">getLargerEveryDay</span>() {
+        <span class="keyword">while</span> (<span class="keyword">true</span>) {
+            <span class="keyword">this</span>.feelings++;
+            <span class="keyword">this</span>.memories.push(<span class="string">"Every moment"</span>);
+            
+            <span class="keyword">if</span> (<span class="keyword">this</span>.feelings === <span class="class-name">Infinity</span>) {
+                <span class="keyword">break</span>; <span class="comment">// Can't measure what I feel</span>
+            }
+        }
+    }
+
+    <span class="function">supportEachOther</span>() {
+        <span class="keyword">const</span> challenges = getLifeChallenges();
+        challenges.forEach(<span class="param">challenge</span> => {
+            <span class="comment">// Together we can handle anything</span>
+            <span class="keyword">const</span> solution = <span class="keyword">this</span>.solveAsTeam(challenge);
+            <span class="keyword">this</span>.bond.strengthen();
+        });
+    }
+
+    <span class="function">startOurJourney</span>() {
+        <span class="keyword">return</span> <span class="keyword">new</span> <span class="class-name">Promise</span>(<span class="param">resolve</span> => {
+            resolve(<span class="string">"Let's be together 💕"</span>);
+        });
+    }
+}
+
+<span class="comment">// The moment everything changes</span>
+<span class="keyword">const</span> ourLove = <span class="keyword">new</span> <span class="class-name">Relationship</span>(<span class="string">"Abhishek"</span>, <span class="string">"Sonali"</span>);
+ourLove.getLargerEveryDay();
+ourLove.supportEachOther();
+
+<span class="comment">// Ready to make it official...</span>
+<span class="keyword">await</span> ourLove.startOurJourney();</code></pre>
+                </div>
+            </div>
+            <div class="commit-history">
+                <div class="commit-header">
+                    <h3><span class="commit-icon">📝</span> Commit History</h3>
+                    <span class="commit-count">4 commits</span>
+                </div>
+                <div class="commits-list">
+                    <div class="commit">
+                        <div class="commit-left">
+                            <span class="commit-hash">a3f9c2b</span>
+                            <span class="commit-avatar">👤</span>
+                        </div>
+                        <div class="commit-right">
+                            <span class="commit-msg">feat: first-conversation ✨</span>
+                            <span class="commit-time">3 months ago</span>
+                        </div>
+                    </div>
+                    <div class="commit">
+                        <div class="commit-left">
+                            <span class="commit-hash">d8e1a5c</span>
+                            <span class="commit-avatar">👤</span>
+                        </div>
+                        <div class="commit-right">
+                            <span class="commit-msg">feat: realized-she's-special 💫</span>
+                            <span class="commit-time">2 months ago</span>
+                        </div>
+                    </div>
+                    <div class="commit">
+                        <div class="commit-left">
+                            <span class="commit-hash">2b7f3e9</span>
+                            <span class="commit-avatar">👤</span>
+                        </div>
+                        <div class="commit-right">
+                            <span class="commit-msg">feat: feelings-intensified ❤️</span>
+                            <span class="commit-time">1 month ago</span>
+                        </div>
+                    </div>
+                    <div class="commit">
+                        <div class="commit-left">
+                            <span class="commit-hash">9c4d8f1</span>
+                            <span class="commit-avatar">👤</span>
+                        </div>
+                        <div class="commit-right">
+                            <span class="commit-msg">feat: ready-to-ask-her-out 💕</span>
+                            <span class="commit-time">just now</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Why Sonali -->
+    <section class="section why-section" id="section3" data-section="3">
+        <div class="section-number">03</div>
+        <div class="container">
+            <div class="section-header">
+                <h1 class="section-title">Why <span class="name-highlight">Sonali</span>?</h1>
+                <p class="section-subtitle">Six reasons why you're absolutely incredible</p>
+            </div>
+            <div class="reasons-grid">
+                <div class="reason-card" data-delay="0">
+                    <div class="card-number">01</div>
+                    <div class="reason-icon">✨</div>
+                    <h3>Perfect Syntax</h3>
+                    <p>You're like the most elegant code I've ever read. Everything about you just makes sense, flows perfectly, and brings joy to my world.</p>
+                    <div class="card-shine"></div>
+                </div>
+                <div class="reason-card" data-delay="1">
+                    <div class="card-number">02</div>
+                    <div class="reason-icon">🌟</div>
+                    <h3>Best Collaboration</h3>
+                    <p>Every conversation with you is like pair programming at its finest. We complement each other, solve problems together, and make everything better.</p>
+                    <div class="card-shine"></div>
+                </div>
+                <div class="reason-card" data-delay="2">
+                    <div class="card-number">03</div>
+                    <div class="reason-icon">💫</div>
+                    <h3>Exciting Features</h3>
+                    <p>You're the feature I've been waiting for. You bring new possibilities, endless excitement, and make every day feel like a major release.</p>
+                    <div class="card-shine"></div>
+                </div>
+                <div class="reason-card" data-delay="3">
+                    <div class="card-number">04</div>
+                    <div class="reason-icon">💡</div>
+                    <h3>Infinite Energy</h3>
+                    <p>You light up my world like the perfect algorithm solving a complex problem. Efficient, beautiful, and absolutely brilliant in every way.</p>
+                    <div class="card-shine"></div>
+                </div>
+                <div class="reason-card" data-delay="4">
+                    <div class="card-number">05</div>
+                    <div class="reason-icon">🎯</div>
+                    <h3>Perfect Match</h3>
+                    <p>We're like the perfect tech stack - naturally compatible, incredibly powerful together, and designed to build something amazing.</p>
+                    <div class="card-shine"></div>
+                </div>
+                <div class="reason-card" data-delay="5">
+                    <div class="card-number">06</div>
+                    <div class="reason-icon">🚀</div>
+                    <h3>Adventure Awaits</h3>
+                    <p>With you, I want to explore uncharted territories, push boundaries, and create something incredible. Let's start this journey together.</p>
+                    <div class="card-shine"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Proposal -->
+    <section class="section proposal-section" id="section4" data-section="4">
+        <div class="section-number">04</div>
+        <div class="stars-container">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+        </div>
+        <div class="proposal-container">
+            <div class="heartbeat-bg"></div>
+            <div class="proposal-content">
+                <div class="code-snippet">
+                    <span class="keyword">if</span> (feelings === <span class="string">"real"</span> && chemistry === <span class="string">"perfect"</span>) {
+                </div>
+                <h1 class="proposal-text">
+                    <span class="name-highlight">Sonali</span>,<br>
+                    Will you be my girlfriend?
+                    <span class="ring">💕</span>
+                </h1>
+                <div class="code-snippet">
+                    }
+                </div>
+                <div class="proposal-buttons">
+                    <button class="btn-yes" id="btnYes">
+                        <span class="btn-text">Yes! 💖</span>
+                        <span class="btn-ripple"></span>
+                    </button>
+                    <button class="btn-no" id="btnNo">
+                        <span class="btn-text">Let me think...</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Celebration -->
+    <section class="section celebration-section hidden" id="section5" data-section="5">
+        <div class="section-number">05</div>
+        <canvas id="confettiCanvas"></canvas>
+        <div class="celebration-content">
+            <h1 class="celebration-title">
+                <span class="success-icon">✓</span> Connection Established!
+            </h1>
+            <div class="celebration-message">
+                <p class="big-text">She said YES!</p>
+                <p class="sub-text">Let's start this amazing journey together 🚀</p>
+            </div>
+            <div class="final-code">
+                <pre><code><span class="comment">// Our story begins now</span>
+<span class="keyword">const</span> ourJourney = <span class="keyword">async</span> () => {
+    <span class="keyword">const</span> adventures = [];
+    <span class="keyword">const</span> happiness = <span class="class-name">Infinity</span>;
+    
+    <span class="keyword">while</span> (<span class="keyword">true</span>) {
+        adventures.push(<span class="keyword">await</span> createMemories());
+        adventures.push(<span class="keyword">await</span> shareSmiles());
+        adventures.push(<span class="keyword">await</span> supportEachOther());
+        console.log(<span class="string">"Together ❤️"</span>);
+    }
+};
+
+ourJourney(); <span class="comment">// Let's go!</span></code></pre>
+            </div>
+            <div class="github-stats">
+                <div class="stat">
+                    <span class="stat-value">∞</span>
+                    <span class="stat-label">possibilities ahead</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">2</span>
+                    <span class="stat-label">hearts connected</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">100%</span>
+                    <span class="stat-label">happiness</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <audio id="bgMusic" loop></audio>
+    <script src="script.js"></script>
+</body>
+</html>
