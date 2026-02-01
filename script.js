@@ -1,7 +1,7 @@
 // ===================================
 // Console Easter Eggs
 // ===================================
-console.log('%c💕 Sonali, will you be my girlfriend?', 'font-size: 24px; color: #ff6b9d; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);');
+console.log('%c💕 Sonali, will you be my friend?', 'font-size: 24px; color: #ff6b9d; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);');
 console.log('%cYou found the secret! 🎉', 'font-size: 16px; color: #4ade80;');
 console.log('%cThis website was built with feelings, code, and a lot of hope. ❤️', 'color: #82aaff;');
 console.log('%c// Every line written thinking of you', 'color: #6b7280; font-style: italic;');
@@ -185,7 +185,7 @@ btnYes.addEventListener('click', () => {
     
     // Console message
     console.log('%c🎉 SHE SAID YES! 🎉', 'font-size: 30px; color: #4ade80; font-weight: bold;');
-    console.log('%cconst happiness = Infinity; // She\'s my girlfriend now!', 'color: #ff6b9d;');
+    console.log('%cconst happiness = Infinity; // She\'s my friend now!', 'color: #ff6b9d;');
 });
 
 btnNo.addEventListener('click', (e) => {
